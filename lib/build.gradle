@@ -29,7 +29,6 @@ android {
             dimension 'cpuArch'
 
             packagingOptions{
-                pickFirst 'lib/armeabi-v7a/libhello-jni.so'
                 pickFirst 'lib/armeabi-v7a/libffmpeg.so'
             }
 
@@ -41,7 +40,6 @@ android {
             dimension 'cpuArch'
 
             packagingOptions{
-                pickFirst 'lib/arm64-v8a/libhello-jni.so'
                 pickFirst 'lib/arm64-v8a/libffmpeg.so'
             }
 
